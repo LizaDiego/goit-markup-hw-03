@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap');
+
+:root {
+  --iriscolor: #404bbf;
+  --navyblue: #2e2f42;
+  --navcolor: black;
+  --purplecolor: #4d5ae5;
+  --whitecolor: white;
+  --slatecolor: #434455;
+  --cloudcolor: #f4f4fd;
+}
+
+/* Studio */
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: var(--slatecolor);
+  background-color: var(--whitecolor);
+}
+
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--purplecolor);
+}
+
+.studio-logo {
+  color: var(--navyblue);
+}
+
+.link {
+  text-decoration: none;
+}
+
+.list-item > .item {
+  color: var(--navyblue);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.list {
+  list-style: none;
+  color: var(--navyblue);
+}
+
+li > .link:hover,
+li > .link:focus {
+  color: var(--iriscolor);
+}
+
+.contact-info {
+  font-style: normal;
+}
+
+.contact-item > .info {
+  color: var(--slatecolor);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
+/*  Section 1 */
+.bg-sectionone {
+  background-color: var(--navyblue);
+}
+
+.header {
+  color: var(--whitecolor);
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+
+.button {
+  cursor: pointer;
+  letter-spacing: 0.04em;
+  font-family: inherit;
+  font-size: 16px;
+  background-color: var(--purplecolor);
+  color: var(--whitecolor);
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.button:hover,
+.button:focus {
+  background-color: var(--iriscolor);
+}
+
+/* Section 2 */
+.desctitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--navyblue);
+}
+
+.desclist {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slatecolor);
+}
+
+/* Section 3 */
+.sectiontitle {
+  text-align: center;
+  color: var(--navyblue);
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+
+/* Section 4 */
+
+.bg-sectionfour {
+  background-color: var(--cloudcolor);
+}
+
+.list .teamname {
+  background-color: var(--whitecolor);
+}
+
+/* Reused Section 2 */
+
+/* Footer */
+
+.studio-ftlogo {
+  color: var(--cloudcolor);
+}
+
+.bg-footer {
+  background-color: var(--navyblue);
+}
+
+.lastword {
+  color: var(--cloudcolor);
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+/* Portfolio */
+
+.btn-menu {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--purplecolor);
+  background-color: var(--cloudcolor);
+  cursor: pointer;
+}
+
+.btn-menu:hover,
+.btn-menu:focus {
+  color: var(--whitecolor);
+  background-color: var(--iriscolor);
+}
