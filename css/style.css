@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap');
 
+/* Reset */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Variables */
+
 :root {
   --iriscolor: #404bbf;
   --navyblue: #2e2f42;
@@ -8,9 +17,27 @@
   --whitecolor: white;
   --slatecolor: #434455;
   --cloudcolor: #f4f4fd;
+  --lightcolor: #e7e9fc;
 }
 
 /* Studio */
+
+.img {
+  display: block;
+}
+
+.header .container {
+  display: flex;
+}
+
+.container {
+  width: 1158px;
+  margin: 0 auto;
+}
+
+.list-item {
+  display: flex;
+}
 
 body {
   font-family: 'Roboto', sans-serif;
