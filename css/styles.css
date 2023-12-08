@@ -1,0 +1,210 @@
+/* Reset */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Index/Studio Page */
+
+/* H1 .hero
+   H2 section title
+   H3 .feature-title */
+
+/* Variables */
+:root {
+  --iris: #4d5ae5;
+  --ocean: #404bbf;
+  --navyblue: #2e2f42;
+  --slate: #434455;
+  --white: #ffffff;
+  --cloud: #f4f4fd;
+  --cornflower: #e7e9fc;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: var(--slate);
+  background-color: var(--white);
+}
+
+.logo {
+  color: var(--iris);
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-right: 76px;
+}
+
+.link {
+  text-decoration: none;
+  padding: 24px 0;
+}
+
+.list {
+  list-style: none;
+}
+
+.address {
+  font-style: normal;
+}
+
+/* Header */
+
+.header {
+  border-bottom: 1px solid var(--cornflower);
+}
+
+.banner-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container {
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.nav,
+.address {
+  display: flex;
+  align-items: center;
+}
+
+.nav > .list {
+  display: flex;
+  gap: 40px;
+}
+
+.address > .list {
+  display: flex;
+  gap: 40px;
+}
+
+.header-studio {
+  color: var(--navyblue);
+}
+
+.header-item {
+  color: var(--navyblue);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.address-item {
+  color: var(--slate);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+li > .link:hover,
+li > .link:focus {
+  color: var(--ocean);
+}
+
+/*  Section 1 */
+.hero {
+  background-color: var(--navyblue);
+  color: var(--white);
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+
+.button {
+  background-color: var(--iris);
+  color: var(--white);
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+
+.button:hover,
+.button:focus {
+  background-color: var(--ocean);
+}
+
+/* Section 2 */
+.feature-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--navyblue);
+}
+
+.feature-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate);
+}
+
+/* Section 3 */
+.section-header {
+  text-align: center;
+  color: var(--navyblue);
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+
+/* Section 4 */
+.team-background {
+  background-color: var(--cloud);
+}
+
+.list .team-item {
+  background-color: var(--white);
+}
+
+/* Reused section 3 header and section 2 list */
+
+/* Footer */
+
+.footer-background {
+  background-color: var(--navyblue);
+}
+
+.footer-studio {
+  color: var(--cloud);
+}
+
+.footer-text {
+  color: var(--cloud);
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+/* Portfolio Page */
+
+.button-menu {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--iris);
+  background-color: var(--cloud);
+  cursor: pointer;
+}
+
+.button-menu:hover,
+.button-menu:focus {
+  color: var(--white);
+  background-color: var(--ocean);
+}
+
+/* Reused main list */
