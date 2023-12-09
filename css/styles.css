@@ -44,6 +44,10 @@ body {
   list-style: none;
 }
 
+img {
+  display: block;
+}
+
 /* Header */
 .header {
   border-bottom: 1px solid var(--cornflower);
@@ -266,6 +270,9 @@ li > .link:focus {
 }
 
 /* Portfolio Page */
+.product-services {
+  padding: 96px 0 120px 0;
+}
 
 .button-menu {
   font-family: inherit;
@@ -276,12 +283,38 @@ li > .link:focus {
   color: var(--iris);
   background-color: var(--cloud);
   cursor: pointer;
+  padding: 12px 24px;
+  border: 1px solid var(--cornflower);
+  border-radius: 4px;
+}
+
+.btn.list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 72px;
 }
 
 .button-menu:hover,
 .button-menu:focus {
   color: var(--white);
   background-color: var(--ocean);
+  border: 1px solid transparent;
 }
 
-/* Reused main list */
+.product.list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+
+.product-item {
+  flex-basis: calc((100% - 48px) / 3);
+}
+
+.product-card {
+  padding: 32px 16px;
+  border: 1px solid var(--cornflower);
+  border-top: none;
+}
