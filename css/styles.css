@@ -174,7 +174,8 @@ li > .link:focus {
   flex-basis: calc((100% - 72px) / 4);
 }
 
-.info-card .feature-title {
+.info-card .feature-title,
+.product .feature-title {
   margin-bottom: 8px;
   font-weight: 500;
   font-size: 20px;
@@ -184,7 +185,8 @@ li > .link:focus {
   color: var(--navyblue);
 }
 
-.info-card .feature-text {
+.info-card .feature-text,
+.product .feature-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
