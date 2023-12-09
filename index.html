@@ -10,46 +10,44 @@
     <link rel="stylesheet" 
     href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css" integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg==" 
     crossorigin="anonymous" 
-    referrerpolicy="no-referrer"
-    />
+    referrerpolicy="no-referrer" />
 
 <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
-        rel="stylesheet"
-    />
+        rel="stylesheet" />
 
  <!-- CSS -->
-    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/styles.css" />
 </head>
 
 <body>
 <!-- Header -->
 <header class="header">
-    <div class="banner-header container">
+    <div class="main-header container">
     <nav class="nav">
             <a href="./index.html" class="logo link">Web<span class="header-studio">Studio</span>
             </a>
-            <ul class="list">
+            <ul class="header list">
                 <li class="header-item">
-                    <a href="./index.html" class="header-item link">Studio</a>
+                    <a href="./index.html" class="top link">Studio</a>
                 </li>
                 <li class="header-item">
-                    <a href="./portfolio.html" class="header-item link">Portfolio</a>
+                    <a href="./portfolio.html" class="top link">Portfolio</a>
                 </li>
                 <li class="header-item">
-                    <a href="" class="header-item link">Contacts</a>
+                    <a href="" class="top link">Contacts</a>
                 </li>
             </ul>
     </nav>
     <address class="address">
-            <ul class="list">
+            <ul class="address list">
                 <li class="address-item">
-                    <a href="mailto:info@devstudio.com" class="address-item link">info@devstudio.com</a>
+                    <a href="mailto:info@devstudio.com" class="info link">info@devstudio.com</a>
                 </li>
                 <li class="address-item">
-                    <a href="tel:+110001111111" class="address-item link">+11 (000) 111-11-11</a>
+                    <a href="tel:+110001111111" class="info link">+11 (000) 111-11-11</a>
                 </li>
             </ul>
     </address>
@@ -61,7 +59,7 @@
 <!-- Section 1 -->
     <section class="hero">
         <div class="container">
-        <h1 class="hero-text">Effective Solutions <br /> Your Business
+        <h1 class="hero-text">Effective Solutions for Your Business
         </h1>
         <button type="button" class="button">Order Service
         </button>
@@ -69,29 +67,29 @@
     </section>
 
 <!-- Section 2 -->    
-    <section>
+    <section class="feature-list">
         <div class="container">
-        <h2 hidden>Section 2</h2>
-        <ul class="list">
-            <li>
+        <h2 class="visually-hidden">Feature List</h2>
+        <ul class="info-card list">
+            <li class="feature-card">
                 <h3 class="feature-title">Strategy</h3>
                 <p class="feature-text">Our goal is to identify the business problem to walk away with the perfect and creative
                     solution.</p>
             </li>
     
-            <li>
+            <li class="feature-card">
                 <h3 class="feature-title">Punctuality</h3>
                 <p class="feature-text"> Bring the key message to the brand's audience for the best price within the shortest
                     possible time.</p>
             </li>
     
-            <li>
+            <li class="feature-card">
                 <h3 class="feature-title">Diligence</h3>
                 <p class="feature-text">Research and confirm brands that present the strongest digital growth opportunities and
                     minimize risk.</p>
             </li>
     
-            <li>
+            <li class="feature-card">
                 <h3 class="feature-title">Technologies</h3>
                 <p class="feature-text">Design practice focused on digital experiences. We bring forth a deep passion for
                     problem-solving.</p>
@@ -101,17 +99,17 @@
     </section>
 
 <!-- Section 3 -->    
-    <section>
+    <section class="service-section">
         <div class="container">
-        <h2 class="section-header">What are we doing</h2>
-        <ul class="list">
-            <li>
+        <h2 class="section-title">What are we doing</h2>
+        <ul class="service list">
+            <li class="service-photo">
                 <img src="./images/image-01.jpg" width="360" alt="desktop-monitor" />
             </li>
-            <li>
+            <li class="service-photo">
                 <img src="./images/image-02.jpg" width="360" alt="mobile-phones" />
             </li>
-            <li>
+            <li class="service-photo">
                 <img src="./images/image-03.jpg" width="360" alt="mobile-phone-applications" />
             </li>
         </ul>
@@ -119,32 +117,37 @@
     </section>
 
 <!-- Section 4 -->   
-    <section class="team-background">
+    <section class="team-section">
         <div class="container">
-        <h2 class="section-header">Our Team</h2>
-        <ul class="list">
+        <h2 class="section-title">Our Team</h2>
+        <ul class="team list">
             <li class="team-item">
                 <img src="./images/smiling-man-with-beard.jpg" width="264" alt="smiling-man-with-beard" />
+                <div class="team-member">
                 <h3 class="feature-title">Mark Guerrero</h3>
                 <p class="feature-text">Product Designer</p>
-    
+                </div>       
             </li>
             <li class="team-item">
                 <img src="./images/smiling-man-looking-right.jpg" width="264" alt="smiling-man-looking-right" />
+                <div class="team-member">
                 <h3 class="feature-title">Tom Ford</h3>
                 <p class="feature-text">Frontend Developer</p>
-    
+                </div>
             </li>
             <li class="team-item">
                 <img src="./images/smiling-girl-in-pink.jpg" width="264" alt="smiling-girl-in-pink" />
+                <div class="team-member">
                 <h3 class="feature-title">Camila Garcia</h3>
                 <p class="feature-text">Marketing</p>
-    
+                </div>
             </li>
             <li class="team-item">
                 <img src="./images/smiling-man-in-gray.jpg" width="264" alt="smiling-man-in-gray" />
+                <div class="team-member">
                 <h3 class="feature-title">Daniel Wilson</h3>
                 <p class="feature-text">UI Designer</p>
+                </div>
             </li>
         </ul>
         </div>
@@ -152,7 +155,7 @@
 </main>
 
 <!-- Footer -->
-    <footer class="footer-background">
+    <footer class="footer">
         <div class="container">
         <a href="./index.html" class="logo link">Web<span class="footer-studio">Studio</span>
         </a>
